@@ -1,50 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InaWear - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <img src="image/logo.png" alt="Company Logo" class="logo">
-    <h2>InaWear</h2>
-</header>
+<div class="grid-container">
 
-<div class="container">
-    <nav>
+    <header class="header">
+        <img src="logo.jpg" alt="Company Logo" class="logo">
+        <h2>InaWear</h2>
+        <p>Simple & Modern Fashion</p>
+    </header>
+
+    <nav class="sidebar left">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact Us</a>
     </nav>
 
-    <main>
+    <main class="content">
         <h2>Featured Products</h2>
 
         <div class="products">
             <div class="product">
-                <div class="product-img"></div>
-                <p>Top Wear</p>
+                <div class="product-img">
+                    <img src="firstimage.jpg" alt="Top Wear">
+                </div>
+                <h3>Body Suit</h3>
+                <p>Stylish and comfortable top wear for all occasions.</p>
             </div>
 
             <div class="product">
-                <div class="product-img"></div>
-                <p>Bottom Wear</p>
+                <div class="product-img">
+                    <img src="secondimage.jpg" alt="Bottom Wear">
+                </div>
+                <h3>Top Wear</h3>
+                <p>Durable and trendy bottom wear to complete your outfit.</p>
             </div>
 
             <div class="product">
-                <div class="product-img"></div>
-                <p>Accessories</p>
+                <div class="product-img">
+                    <img src="thirdimage.jpg" alt="Accessories">
+                </div>
+                <h3>Bottom Wear</h3>
+                <p>Unique accessories to add style to your look.</p>
             </div>
         </div>
-    </main>
-</div>
 
-<footer>
-    <p>© 2026 InaWear | Email: inawear@email.com</p>
-</footer>
+
+    </main>
+
+    <aside class="sidebar right">
+        <h3>Updates:</h3>
+        <p> - New arrivals!</p>
+        <p> - Fast delivery</p>
+    </aside>
+
+    <footer class="footer">
+        <p>© 2026 InaWear | Email: inawear@gmail.com</p>
+    </footer>
+
+</div>
 
 </body>
 </html>
