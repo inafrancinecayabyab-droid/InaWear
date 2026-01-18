@@ -1,46 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InaWear - Contact Us</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <img src="image/logo.png" alt="Company Logo" class="logo">
-    <h2>InaWear</h2>
-</header>
+    <div class="grid-container">
 
-<div class="container">
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
+        <header class="header">
+            <img src="logo.jpg" alt="Company Logo" class="logo">
+            <h2>InaWear</h2>
+            <p>Get in Touch With Us</p>
+        </header>
 
-    <main>
-        <h2>Contact Us</h2>
+        <nav class="sidebar left">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
 
-        <form id="contactForm">
-            <label>Name</label>
-            <input type="text" id="name">
+        <main class="content">
+            <h2>Contact Us</h2>
 
-            <label>Message</label>
-            <textarea id="message" rows="5"></textarea>
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
 
-            <button type="submit">Submit</button>
-        </form>
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" required></textarea>
 
-        <p id="response"></p>
-    </main>
-</div>
+                <button type="submit">Submit</button>
+            </form>
 
-<footer>
-    <p>© 2026 InaWear</p>
-</footer>
+            <p id="response"></p>
+        </main>
 
-<script src="script.js"></script>
+        <aside class="sidebar right">
+            <h3>Contact Info</h3>
+            <p>Email: inawear@gmail.com</p>
+            <p>Phone: 09162837292</p>
+            <p>Support: Mon–Fri</p>
+        </aside>
+
+        <footer class="footer">
+            <p>© 2026 InaWear</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
