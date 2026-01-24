@@ -23,6 +23,7 @@ body {
     gap: 20px;
 }
 
+/* Header */
 .header {
     grid-area: header;
     background-color: #000;
@@ -51,6 +52,7 @@ body {
     height: 40px;
 }
 
+/* Sidebar */
 .sidebar {
     background-color: #e5e5e5;
     padding: 20px;
@@ -76,6 +78,7 @@ body {
     color: #666;
 }
 
+/* Main Content */
 .content {
     grid-area: content;
     padding: 30px;
@@ -100,6 +103,7 @@ body {
     line-height: 1.6;
 }
 
+/* Info Box */
 .info-box {
     background-color: #f0f0f0;
     padding: 15px 20px;
@@ -116,6 +120,7 @@ body {
     margin-bottom: 0;
 }
 
+/* Featured Products */
 .products {
     display: flex;
     justify-content: center; 
@@ -132,8 +137,7 @@ body {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start; /* left-aligned text */
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
@@ -159,6 +163,7 @@ body {
     width: 100%;
 }
 
+/* Contact Form */
 form {
     max-width: 400px;
     text-align: left;
@@ -196,6 +201,7 @@ button:hover {
     color: #333;
 }
 
+/* Footer */
 .footer {
     grid-area: footer;
     background-color: #000;
@@ -206,7 +212,8 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
-/
+
+/* Media Queries */
 @media (min-width: 768px) {
     .grid-container {
         grid-template-areas:
